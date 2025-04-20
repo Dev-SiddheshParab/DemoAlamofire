@@ -45,12 +45,6 @@ This project demonstrates a simple iOS app that fetches and displays a list of P
 
 ---
 
-## 📸 Screenshot
-
-_Add screenshot here if available_
-
----
-
 ## 📚 Credits
 
 - Data powered by [PokeAPI](https://pokeapi.co/)
