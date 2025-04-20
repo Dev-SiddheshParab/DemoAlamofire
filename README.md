@@ -1,59 +1,67 @@
-**📱 DemoAlamofire – Pokémon List (MVVM)**
+# 📱 DemoAlamofire – Pokémon List (MVVM)
 
-This project demonstrates a simple iOS app that fetches and displays a list of Pokémon using the PokeAPI and follows the MVVM (Model-View-ViewModel) design pattern.
+This project demonstrates a simple iOS app that fetches and displays a list of Pokémon using the [PokeAPI](https://pokeapi.co/) and follows the **MVVM (Model-View-ViewModel)** design pattern.
 
-**🚀 Features**
+---
 
+## 🚀 Features
 
-Built with Swift and UIKit
-Clean MVVM architecture
-Uses Alamofire for networking
-Displays data using UITableView
-Handles loading states and error alerts
-Organized code structure for readability and scalability
+- Built with **Swift** and **UIKit**
+- Clean MVVM architecture
+- Uses **Alamofire** for networking
+- Displays data using `UITableView`
+- Handles loading states and error alerts
+- Organized code structure for readability and scalability
 
-**💡How It Works**
+---
 
+## 💡 How It Works
 
-HomeVC: Displays the Pokémon list in a UITableView.
+- `HomeVC`: Displays the Pokémon list in a `UITableView`.
+- `PokemonListViewModel`: Fetches data from the API and exposes it via closures.
+- `PokemonService`: Makes network calls using **Alamofire**.
+- `PokemonListTVC`: Custom table view cell to show Pokémon names.
 
-PokemonListViewModel: Fetches data from the API and exposes it via closures.
+---
 
-PokemonService: Makes network calls using Alamofire.
+## ⚙️ Dependencies
 
-PokemonListTVC: Custom table view cell to show Pokémon names.
+- [Alamofire](https://github.com/Alamofire/Alamofire) – for HTTP networking
 
+---
 
-**⚙️ Dependencies**
+## 🛠️ Setup Instructions
 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/DemoAlamofire.git
+   ```
 
-Alamofire – for HTTP networking
+2. Open the project in Xcode.
 
-**🛠️ Setup Instructions**
+3. Run `pod install` if using CocoaPods, or make sure **Alamofire** is integrated via Swift Package Manager.
 
+4. Build and run on a simulator or device.
 
-Clone the repository:
-git clone https://github.com/your-username/DemoAlamofire.git
-Open the project in Xcode.
-Run pod install if using CocoaPods, or make sure Alamofire is integrated via Swift Package Manager.
-Build and run on a simulator or device.
+---
 
-**📚 Credits**
+## 📸 Screenshot
 
+_Add screenshot here if available_
 
-Data powered by PokeAPI
-Built as a learning project to demonstrate MVVM with networking
+---
 
-**🙌 Contributions**
+## 📚 Credits
 
+- Data powered by [PokeAPI](https://pokeapi.co/)
+- Built as a learning project to demonstrate MVVM with networking
+
+---
+
+## 🙌 Contributions
 
 Feel free to fork and improve! PRs are welcome for features like:
-Search functionality
-Caching
-Pagination
-UI improvements
-
-
-
-
-
+- Search functionality
+- Caching
+- Pagination
+- UI improvements
