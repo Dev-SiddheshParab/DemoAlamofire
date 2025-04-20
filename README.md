@@ -12,29 +12,38 @@ Displays data using UITableView
 Handles loading states and error alerts
 Organized code structure for readability and scalability
 
-💡How It Works
+**💡How It Works**
+
+
 HomeVC: Displays the Pokémon list in a UITableView.
 PokemonListViewModel: Fetches data from the API and exposes it via closures.
 PokemonService: Makes network calls using Alamofire.
 PokemonListTVC: Custom table view cell to show Pokémon names.
 
-⚙️ Dependencies
+**⚙️ Dependencies**
+
+
 Alamofire – for HTTP networking
 
-🛠️ Setup Instructions
+**🛠️ Setup Instructions**
+
+
 Clone the repository:
 git clone https://github.com/your-username/DemoAlamofire.git
 Open the project in Xcode.
 Run pod install if using CocoaPods, or make sure Alamofire is integrated via Swift Package Manager.
 Build and run on a simulator or device.
 
-📚 Credits
+**📚 Credits**
+
+
 Data powered by PokeAPI
 Built as a learning project to demonstrate MVVM with networking
 
-🙌 Contributions
-Feel free to fork and improve! PRs are welcome for features like:
+**🙌 Contributions**
 
+
+Feel free to fork and improve! PRs are welcome for features like:
 Search functionality
 Caching
 Pagination
