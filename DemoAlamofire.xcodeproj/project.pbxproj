@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		57DED15A2DB4AB010029C86A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 57DED1592DB4AB010029C86A /* Alamofire */; };
-		57DED15C2DB4AB010029C86A /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 57DED15B2DB4AB010029C86A /* AlamofireDynamic */; };
+		577426CF2DB4AFEF0059D558 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 577426CE2DB4AFEF0059D558 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,8 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57DED15A2DB4AB010029C86A /* Alamofire in Frameworks */,
-				57DED15C2DB4AB010029C86A /* AlamofireDynamic in Frameworks */,
+				577426CF2DB4AFEF0059D558 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,8 +83,7 @@
 			);
 			name = DemoAlamofire;
 			packageProductDependencies = (
-				57DED1592DB4AB010029C86A /* Alamofire */,
-				57DED15B2DB4AB010029C86A /* AlamofireDynamic */,
+				577426CE2DB4AFEF0059D558 /* Alamofire */,
 			);
 			productName = DemoAlamofire;
 			productReference = 57D0FBEC2DB4A71000C192DB /* DemoAlamofire.app */;
@@ -117,7 +114,7 @@
 			mainGroup = 57D0FBE32DB4A70F00C192DB;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				57DED1582DB4AB000029C86A /* XCRemoteSwiftPackageReference "Alamofire" */,
+				577426CD2DB4AFEF0059D558 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 57D0FBED2DB4A71000C192DB /* Products */;
@@ -347,7 +344,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		57DED1582DB4AB000029C86A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		577426CD2DB4AFEF0059D558 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -358,15 +355,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		57DED1592DB4AB010029C86A /* Alamofire */ = {
+		577426CE2DB4AFEF0059D558 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 57DED1582DB4AB000029C86A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = 577426CD2DB4AFEF0059D558 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
-		};
-		57DED15B2DB4AB010029C86A /* AlamofireDynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 57DED1582DB4AB000029C86A /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = AlamofireDynamic;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
