@@ -2,7 +2,9 @@
 
 This project demonstrates a simple iOS app that fetches and displays a list of Pokémon using the PokeAPI and follows the MVVM (Model-View-ViewModel) design pattern.
 
-🚀 Features
+**🚀 Features**
+
+
 Built with Swift and UIKit
 Clean MVVM architecture
 Uses Alamofire for networking
