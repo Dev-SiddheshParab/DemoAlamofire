@@ -16,9 +16,13 @@ Organized code structure for readability and scalability
 
 
 HomeVC: Displays the Pokémon list in a UITableView.
+
 PokemonListViewModel: Fetches data from the API and exposes it via closures.
+
 PokemonService: Makes network calls using Alamofire.
+
 PokemonListTVC: Custom table view cell to show Pokémon names.
+
 
 **⚙️ Dependencies**
 
